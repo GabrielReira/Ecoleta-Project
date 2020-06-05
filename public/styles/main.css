@@ -1,0 +1,26 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+    --back-color:  #f0f0f5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    /*Tamanho máximo de todas as caixas serão suas bordas*/
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: var(--back-color);
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}

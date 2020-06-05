@@ -1,0 +1,43 @@
+/* RESPONSIVIDADE */
+/* REGRAS ESPECÍFICAS DE RESOLUÇÃO */
+/* DISPOSITIVOS DE MENOR RESOLUÇÃO COMO CELULARES */
+
+@media (max-width: 900px) {
+    #page-home {
+        background-position-x: 70vw; /* Eixo horizontal de 35vw para 70vw */
+    }
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+    /* Joga o botão cadastrar para o final da página */
+    /* Centraliza tudo */
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+    #page-search-results .cards img {
+        height: 250px;
+    }
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 200px; /* Eixo vertical de bottom para 200px */
+    }
+}
