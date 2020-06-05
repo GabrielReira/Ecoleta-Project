@@ -2,7 +2,7 @@
 /* REGRAS ESPECÍFICAS DE RESOLUÇÃO */
 /* DISPOSITIVOS DE MENOR RESOLUÇÃO COMO CELULARES */
 
-@media (max-width: 900px) {
+@media (max-width: 900px) { /* De 0 a 900px */
     #page-home {
         background-position-x: 70vw; /* Eixo horizontal de 35vw para 70vw */
     }
@@ -27,6 +27,13 @@
     }
     #page-search-results .cards img {
         height: 250px;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
     }
 }
 
