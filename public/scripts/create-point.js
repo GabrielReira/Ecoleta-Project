@@ -75,6 +75,7 @@ function handleSelectedItem(event) {
     itemLi.classList.toggle("selected")
 
     const itemId = itemLi.dataset.id
+    //console.log('ITEM ID', itemId) // Ver se está ocorrendo possíveis erros
 
     // Verificar se existem itens selecionados, se sim pegá-los
     const alreadySelected = selectedItems.findIndex( item => {
@@ -94,7 +95,7 @@ function handleSelectedItem(event) {
     else {
         selectedItems.push(itemId)
     }
-    // console.log(selectedItems) // Já aparece o js rodando certinho, tirando e colando itens
+    //console.log('Itens selecionados: ', selectedItems)
 
     // Atualizar o campo hidden com os itens selecionados
     collectedItem.value = selectedItems
