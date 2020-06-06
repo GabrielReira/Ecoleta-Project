@@ -1,10 +1,14 @@
 /* Lista na página com parte branca */
+body {
+    background-color: white;
+}
 body::after {
     content: "";
-    position: fixed;
-    background-color: white;
-    top: 260px;
-    right: 0; left: 0; bottom: 0;
+    position: absolute;
+    background-color: var(--back-color);
+    top: 0; bottom: 0;
+    right: 0; left: 0; 
+    height: 16rem;
     z-index: -1;
 }
 #page-search-results {
