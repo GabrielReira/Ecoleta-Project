@@ -7,10 +7,11 @@ const db = new sqlite3.Database("./src/database/database.db")
 // Exportar o objeto que será usado em outro local
 module.exports = db
 
-// Utilizar o objeto para realizar operações
-//db.serialize( () => {
-    // SQL
 /*
+// Utilizar o objeto para realizar operações
+db.serialize( () => {
+    // Comandos em SQL
+
     // 1 - Criar uma tabela
     db.run(`
         CREATE TABLE IF NOT EXISTS places (
@@ -54,7 +55,6 @@ module.exports = db
         console.log("Cadastrado com sucesso")
         console.log(this)
     }
-
     db.run(query, values, afterInsertData)
 
 
@@ -65,15 +65,16 @@ module.exports = db
         }
         console.log("Aqui estão seus registros: ")
         console.log(rows)
-    }) */
-
+    })
 
 
     // 4 - Deletar um dado da tabela
-    /*  db.run(`DELETE FROM places WHERE id = ?`, [3], function(err) {
+    db.run(`DELETE FROM places WHERE id = ?`, [5], function(err) {
             if(err) {
                 return console.log(err)
             }
             console.log("Registro deletado com sucesso!")
         })
-}) */
+
+})
+*/

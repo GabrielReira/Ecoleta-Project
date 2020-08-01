@@ -69,9 +69,9 @@ main .card h1 {
 }
 
 main .card h3 {
-    margin: 20px 0;
+    margin: 18px 0;
     font-family: 'Roboto';
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
     line-height: 34px;
     color: var(--primary-color);
