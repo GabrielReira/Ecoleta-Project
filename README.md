@@ -1,5 +1,3 @@
-# Ecoleta-Project
-
 <h1 align="center">
     <img src="images_readme/logo.svg" width="300px">
 </h1>
@@ -29,3 +27,19 @@
 <p>Ecoleta é uma aplicação web que ajuda pessoas a encontrar pontos de coleta de resíduos recicláveis. A partir de um website é possível realizar buscas de cidades com pontos de coleta e até mesmo fazer o cadastro de alguma localidade que faça coleta de produtos diversos para reciclagem.</p>
 <p>Projeto desenvolvido na trilha <strong>Starter</strong> da <strong>Next Level Week</strong> organizada pela <a href="https://rocketseat.com.br/">Rocketseat</a>.</p>
 <p>Esta aplicação foi realizada em um padrão de arquitetura de software <strong>full MVC</strong>, com o front-end e back-end na mesma aplicação.</p>
+
+---
+
+## 🚀 Tecnologias utilizadas
+### Front-end
+* HTML
+* CSS
+* JavaScript
+* Nunjucks
+
+### Back-end
+* Node.js
+* Express.js
+* Nodemon
+* npm
+* SQLite
