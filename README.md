@@ -2,7 +2,7 @@
     <img src="images_readme/logo.svg" width="300px">
 </h1>
 <h2 align="center">
-   ♻️ NextLevelWeek 1.0 ♻️
+   :recycle: NextLevelWeek 1.0 :recycle:
 </h2>
 
 <p align="center">
@@ -23,14 +23,14 @@
 
 ---
 
-## 💻 Sobre o projeto
+## :computer: Sobre o projeto
 <p>Ecoleta é uma aplicação web que ajuda pessoas a encontrar pontos de coleta de resíduos recicláveis. A partir de um website é possível realizar buscas de cidades com pontos de coleta e até mesmo fazer o cadastro de alguma localidade que faça coleta de diversos produtos para reciclagem.</p>
 <p>Projeto desenvolvido na trilha <strong>Starter</strong> da <strong>Next Level Week</strong> organizada pela <a href="https://rocketseat.com.br/">Rocketseat</a>.</p>
 <p>Esta aplicação foi realizada em um padrão de arquitetura de software <strong>full MVC</strong>, com o front-end e back-end na mesma aplicação.</p>
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## :rocket: Tecnologias utilizadas
 ### Front-end
 * HTML
 * CSS
@@ -41,12 +41,11 @@
 * Node.js
 * Express.js
 * Nodemon
-* npm
 * SQLite
 
 ---
 
-## 🖼 Screenshots
+## :framed_picture: Screenshots
 <h1 align="center">
     <img src="images_readme/home.png">
 </h1>
@@ -63,7 +62,7 @@
 
 ---
 
-## 🔥 Como baixar e usar o projeto
+## :fire: Como baixar e usar o projeto
 ```bash
     # Clonar o repositório
     $ git clone https://github.com/GabrielReira/Ecoleta-Project.git
@@ -71,7 +70,7 @@
     # Entrar no diretório
     $ cd ecoleta-project
 
-    # Instale as dependências
+    # Instalar as dependências
     $ npm install
     
     # Iniciar o projeto
@@ -80,7 +79,7 @@
 
 ---
 
-## 🧾 Licença
+## :receipt: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
